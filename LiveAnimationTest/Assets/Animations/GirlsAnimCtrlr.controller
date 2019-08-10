@@ -123,6 +123,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   outro: {fileID: 8300000, guid: 7dc1437a26f1045e4ae5da9b459b9165, type: 3}
+--- !u!114 &114889881660660102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbde24ff01d954353b400ff412f0d225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1101 &1101238713228992776
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -276,6 +288,7 @@ AnimatorState:
   - {fileID: 1101238713228992776}
   m_StateMachineBehaviours:
   - {fileID: 114775323119162102}
+  - {fileID: 114889881660660102}
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
   m_WriteDefaultValues: 1
