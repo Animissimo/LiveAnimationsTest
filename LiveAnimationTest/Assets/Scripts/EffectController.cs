@@ -13,6 +13,6 @@ public class EffectController : MonoBehaviour
 
     public static void StartEmit()
     {
-        _effect.Emit(1);
+        _effect.Play();
     }
 }
